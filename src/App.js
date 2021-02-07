@@ -9,10 +9,14 @@ function App() {
     { id: 3, text: "task3", day: "day3", reminder: false }
   ])
 
+  const deleteTask = (id) => {
+    setTasks(tasks.filter((task) => task.id !== id));
+  }
+
   return (
     <div>
       <Header title="Task Tracker" />
-      <Tasks tasks={tasks} />
+      <Tasks tasks={tasks} onDelete={deleteTask} />
     </div>
   );
 }
