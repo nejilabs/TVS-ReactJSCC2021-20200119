@@ -17,15 +17,22 @@ function App() {
 
   //Fetch Tasks
   const fetchTasks = async () => {
-    const respond = await fetch("http://localhost:5000/tasks")
-    const data = await respond.json()
+    const response = await fetch("http://localhost:5000/tasks")
+    const data = await response.json()
     return data
   }
 
-  const addTask = (task) => {
-    const id = Math.floor(Math.random() * 10000) + 1;
-    const newTask = { id, ...task };
-    setTasks([...tasks, newTask]);
+  const addTask = async (task) => {
+    const response = await fetch("http://localhost:5000/tasks", {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json",
+      },
+      body: JSON.stringify(task)
+    })
+
+    const data = await response.json()
+    setTasks([...tasks, data]);
   }
 
   //Delete Tasks

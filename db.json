@@ -11,6 +11,18 @@
       "text": "task2",
       "day": "day2",
       "reminder": false
+    },
+    {
+      "text": "1",
+      "day": "1",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "text": "2",
+      "day": "2",
+      "reminder": false,
+      "id": 4
     }
   ]
 }
