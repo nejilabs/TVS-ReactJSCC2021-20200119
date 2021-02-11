@@ -66,7 +66,7 @@ Table Of Contents:
 - [30:42 - Styling](#3042---styling)
   - [Inline Styling:](#inline-styling)
 - [34:17 - Button Component](#3417---button-component)
-  - [!](#)
+  - [<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/7.png"/>](#)
 - [37:46 - Events](#3746---events)
   - [Way#1: create method within the component](#way1-create-method-within-the-component)
   - [Way#2: Pass Methods as props to the component](#way2-pass-methods-as-props-to-the-component)
@@ -113,7 +113,8 @@ Table Of Contents:
 
 ## Components: Functions vs Classes:
 
-![]("https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/1.png")
+<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/1.png"/>
+
 ## Working with state
 
 - Components have state (object that determines how a component renders and behaves.
@@ -278,13 +279,13 @@ if you want Header.js to be a class based component, use rcc snippet
 # 27:18 - Component Props
 
 ## How to pass props
-![]("https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/2.png")
+<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/8.png"/>
 
 ## default props if now props are given
-![]("https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/3.png")
+<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/3.png"/>
 
 ## With object destructuring when passing props as parameter.
-![]("https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/4.png")
+<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/4.png"/>
 
 ---
 
@@ -293,10 +294,10 @@ if you want Header.js to be a class based component, use rcc snippet
 ## prop types to make the code more robust
 
 above header.js do impt then:
-![]("https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/5.png")
+<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/5.png"/>
 
 although it still gonna render it, an error will be printed on the console.
-![]("https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/6.png")
+<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/6.png"/>
 you can also use typescript to make ur code more robust.
 
 ---
@@ -528,7 +529,7 @@ Button.propTypes = {
 }
 export default Button
 ```
-![]("https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/7.png")
+<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/7.png"/>
 ---
 
 # 37:46 - Events
@@ -655,7 +656,7 @@ function App() {
 
 export default App;
 ```
-![]("https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/8.png")
+<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/8.png"/>
 
 ---
 
