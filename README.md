@@ -114,7 +114,6 @@ Table Of Contents:
 ## Components: Functions vs Classes:
 
 <img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/1.png"/>
-
 ## Working with state
 
 - Components have state (object that determines how a component renders and behaves.
@@ -279,7 +278,7 @@ if you want Header.js to be a class based component, use rcc snippet
 # 27:18 - Component Props
 
 ## How to pass props
-<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/8.png"/>
+<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/2.png"/>
 
 ## default props if now props are given
 <img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/3.png"/>
@@ -657,6 +656,7 @@ function App() {
 export default App;
 ```
 <img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/8.png"/>
+
 
 ---
 
