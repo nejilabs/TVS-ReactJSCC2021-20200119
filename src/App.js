@@ -79,7 +79,7 @@ function App() {
         <Header onAdd={() => setShowAddTask(!showAddTask)} showAddTask={showAddTask} title="Task Tracker" />
 
         <Route
-          path='/'
+          path="/"
           exact
           render={(props) => (
             <>
