@@ -66,7 +66,6 @@ Table Of Contents:
 - [30:42 - Styling](#3042---styling)
   - [Inline Styling:](#inline-styling)
 - [34:17 - Button Component](#3417---button-component)
-  - [<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/7.png"/>](#)
 - [37:46 - Events](#3746---events)
   - [Way#1: create method within the component](#way1-create-method-within-the-component)
   - [Way#2: Pass Methods as props to the component](#way2-pass-methods-as-props-to-the-component)
@@ -88,6 +87,7 @@ Table Of Contents:
 - [1:31:51 - Add task to server](#13151---add-task-to-server)
 - [1:35:15 - Toggle reminder on server](#13515---toggle-reminder-on-server)
 - [1:39:15 - Routing, footer & about](#13915---routing-footer--about)
+
 
 ---
 
@@ -476,6 +476,7 @@ footer {
 ---
 
 # 34:17 - Button Component
+<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/7.png"/>
 
 touch Button.js inside components:
 
@@ -528,7 +529,8 @@ Button.propTypes = {
 }
 export default Button
 ```
-<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/7.png"/>
+
+
 ---
 
 # 37:46 - Events
