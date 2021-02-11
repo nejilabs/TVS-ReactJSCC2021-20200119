@@ -113,7 +113,8 @@ Table Of Contents:
 
 ## Components: Functions vs Classes:
 
-![]("https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/1.png")
+<img src="https://github.com/nellyXinwei/TVS-ReactJS-ReactJSCC2021/blob/master/READMEImgs/1.png"/>
+
 ## Working with state
 
 - Components have state (object that determines how a component renders and behaves.
